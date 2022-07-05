@@ -1,0 +1,14 @@
+body {
+    margin: 75px;
+}
+
+nav {
+    font-size: medium;
+    font-style: bold;
+}
+li {
+    list-style: none;    
+}
+ul li {
+    display: inline;
+}

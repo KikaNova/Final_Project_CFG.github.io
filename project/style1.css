@@ -1,0 +1,84 @@
+html {
+    background-color: rgb(255, 251, 238);
+}
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    font-size: medium;
+    font-style: bold;
+}
+li {
+    list-style: none;    
+}
+ul li {
+    display: inline;
+}
+header {
+
+    color: rgb(12, 12, 18);
+    background: url(header_img.png);
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+main {
+    margin: 50px;
+}
+p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+}
+
+#webTitle {
+    font-family: 'Comforter';
+    font-size: 75px;
+}
+#quote {
+        text-align: right;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+    }
+
+h1 {
+    text-align: center;
+    font-family: 'Coming Soon';
+    font-style: normal;
+    size: 65px;
+    color: rgb(228, 155, 103);
+}
+.column {
+    float: left;
+    width: 50%;
+    margin: 15px;
+    text-align: start;
+}
+.profile:after{
+    content: "";
+    clear:both;
+    display:flex;
+    flex-direction: row-reverse;
+}
+#Profile_photo {
+    float: left;
+}
+h2 {
+    text-align: center;
+    font-family: 'Jost';
+    font-style: bold;
+    size: 45px;
+    margin-bottom: 20px;
+}
+#pictureSilvia1 {
+    padding: 15px;
+}
+#pictureSilvia2 {
+    padding: 15px;
+}
+.likeBtn button:hover {
+    border: yellow 5px solid;
+}
